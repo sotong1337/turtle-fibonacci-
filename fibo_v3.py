@@ -52,6 +52,8 @@ def fibo(turtle_lst, times, width_, height):
             function(turtle_, size)
             turtle_.left(angle_rotate)
 
+###editing starts here if you want
+
 sk = Turtle()
 sk.shape("turtle")
 sk.speed("fastest")
