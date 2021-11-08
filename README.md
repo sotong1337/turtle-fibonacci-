@@ -1,5 +1,5 @@
 # turtle-fibonacci
- fibonacci spirals and "art" using python turtle
+ fibonacci spirals and "art" using python turtle<br>
  output files are in eps format, open with GIMP to see results
  Tell Jing Peng and Rayner I said hi :)
  To see the individual fibonacci spirals, go to line 147 and delete items in the list e.g. fibo([t1], 42, 800, 800)
