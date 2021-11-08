@@ -158,4 +158,4 @@ variable.hideturtle()
 names.hideturtle()
 
 ts = turtle.getscreen()
-ts.getcanvas().postscript(file = "test7.eps")
+ts.getcanvas().postscript(file = "/ouput images/test7.eps")
