@@ -2,6 +2,7 @@
 fibonacci spirals and "art" using python turtle <br>
 output files are in eps format, open with GIMP to see results <br>
 Tell Jing Peng and Rayner I said hi :) <br>
+Please only refer to Fibo_Final_Ver.py <br>
 To see the individual fibonacci spirals, go to line 147 and delete items in the list e.g. fibo([t1], 42, 800, 800) <br>
 To create your own, delte everything after line 54 <br>
 
