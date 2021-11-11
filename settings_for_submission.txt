@@ -50,4 +50,4 @@ t8 = (names, square, 315, 10, 220, 0.96, bright, end)
 fibo([t1, t2, t3, t4, t5, t6, t7, t8], 42, 400, 600)
 
 ts = turtle.getscreen()
-ts.getcanvas().postscript(file = "ouput images/submission.eps")
+ts.getcanvas().postscript(file = "ouput images/test11.eps")
