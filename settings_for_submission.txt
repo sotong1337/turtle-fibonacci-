@@ -1,0 +1,53 @@
+this are the settings used for the image submitted
+
+sk = Turtle()
+sk.shape("turtle")
+sk.speed("fastest")
+
+sk2 = Turtle()
+sk2.shape("turtle")
+sk2.speed("fastest")
+
+jp = Turtle()
+jp.shape("turtle")
+jp.speed("fastest")
+
+ran = Turtle()
+ran.shape("turtle")
+ran.speed("fastest")
+
+out = Turtle()
+out.shape("turtle")
+out.speed("fastest")
+
+of = Turtle()
+of.shape("turtle")
+of.speed("fastest")
+
+variable = Turtle()
+variable.shape("turtle")
+variable.speed("fastest")
+
+names = Turtle()
+names.shape("turtle")
+names.speed("fastest")
+
+#palattes to test: start-(82,54,255) mid-(42,194,251) final-(171,253,209)
+
+dark = (42,194,251)
+mid = (121, 224, 234)
+bright = (201,253,216)
+end = (196,113,237)
+
+t1 = (sk, square, 0, 10, 180, 0.98, mid, end) 
+t2 = (sk2, square, 45, 10, 220, 0.96, bright, end)
+t3 = (jp, square, 90, 10, 200, 0.97, dark, end)
+t4 = (ran, square, 135, 10, 220, 0.96, bright, end)
+t5 = (out, square, 180, 10, 180, 0.98, mid, end)
+t6 = (of, square, 225, 10, 220, 0.96, bright, end)
+t7 = (variable, square, 270, 10, 200, 0.97, dark, end)
+t8 = (names, square, 315, 10, 220, 0.96, bright, end)
+fibo([t1, t2, t3, t4, t5, t6, t7, t8], 42, 400, 600)
+
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file = "ouput images/submission.eps")
