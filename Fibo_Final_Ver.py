@@ -87,7 +87,9 @@ names.shape("turtle")
 names.speed("fastest")
 
 #turtle_, function, angle_start, angle_rotate, size, rescale, colour_start, colour_final
-#original_plalatte: start-(94,35,203) final-(145,205,254)
+#palattes to test: start-(94,35,203) final-(145,205,254)
+#palattes to test: start-(82,54,255) mid-(42,194,251) final-(171,253,209)
+#palattes to test: start-(96,194,227) final-(227,94,136)
 dark = (119,162,211) 
 dark_3_4 = (120,173,209)
 mid = (120,182,206)
@@ -96,53 +98,53 @@ bright = (121,202,202)
 end = (225,136,176)
 
 sk.penup()
-sk.goto(0, 120)   #0, 30
+sk.goto(0, 120)
 sk.showturtle()          
 sk.pendown()
 t1 = (sk, square, 0, 10, 180, 0.98, mid, end) #mid top
 
 sk2.penup()
-sk2.goto(-40, -60)   #-10, 10
+sk2.goto(-40, -60)
 sk2.showturtle()          
 sk2.pendown()
 t2 = (sk2, square, 45, 10, 220, 0.96, bright, end) #(203,171,109) #bright up right
 
 
 jp.penup()
-jp.goto(-120, 0)   #-30, 0
+jp.goto(-120, 0)
 jp.showturtle()          
 jp.pendown()
 t3 = (jp, square, 90, 10, 200, 0.97, dark_3_4, end) #(74,159,157) #3/4 mid right
 
 ran.penup()
-ran.goto(40, -80)   #0, -20
+ran.goto(40, -80)
 ran.showturtle()          
 ran.pendown()
 t4 = (ran, square, 135, 10, 220, 0.96, bright_1_4, end) #(252,227,123) #1/4 bot right
 
 out.penup()
-out.goto(0, -120)   #0, 30
+out.goto(0, -120)
 out.showturtle()          
 out.pendown()
 t5 = (out, square, 180, 10, 180, 0.98, dark, end) #dark bot
 
 
 of.penup()
-of.goto(-40, 80)   #-10, 20
+of.goto(-40, 80)
 of.showturtle()          
 of.pendown()
 t6 = (of, square, 225, 10, 220, 0.96, bright_1_4, end) #1/4 bot left
 
 
 variable.penup()
-variable.goto(120, 0)   #30, 0
+variable.goto(120, 0)
 variable.showturtle()          
 variable.pendown()
 t7 = (variable, square, 270, 10, 200, 0.97, mid, end) #3/4 mid left
 
 
 names.penup()
-names.goto(-40, 60)   #-10, 10
+names.goto(-40, 60)
 names.showturtle()          
 names.pendown()
 t8 = (names, square, 315, 10, 220, 0.96, bright, end) #bright up left
