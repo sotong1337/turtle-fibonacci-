@@ -1,0 +1,86 @@
+#palattes to test: start-(82,54,255) mid-(42,194,251) final-(171,253,209)
+#palattes to test: start-(96,194,227) final-(227,94,136)
+
+sk = Turtle()
+sk.shape("turtle")
+sk.speed("fastest")
+
+sk2 = Turtle()
+sk2.shape("turtle")
+sk2.speed("fastest")
+
+jp = Turtle()
+jp.shape("turtle")
+jp.speed("fastest")
+
+ran = Turtle()
+ran.shape("turtle")
+ran.speed("fastest")
+
+out = Turtle()
+out.shape("turtle")
+out.speed("fastest")
+
+of = Turtle()
+of.shape("turtle")
+of.speed("fastest")
+
+variable = Turtle()
+variable.shape("turtle")
+variable.speed("fastest")
+
+names = Turtle()
+names.shape("turtle")
+names.speed("fastest")
+
+#palattes to test: start-(82,54,255) mid-(42,194,251) final-(171,253,209)
+
+dark = (42,194,251)
+dark_3_4 = (42,194,251)
+mid = (62, 124, 253)
+bright_1_4 = (82,54,255)
+bright = (82,54,255)
+end = (171,253,209)
+
+t1 = (sk, square, 0, 10, 180, 0.98, mid, end) 
+t2 = (sk2, square, 45, 10, 220, 0.96, bright, end)
+t3 = (jp, square, 90, 10, 200, 0.97, dark_3_4, end)
+t4 = (ran, square, 135, 10, 220, 0.96, bright_1_4, end)
+t5 = (out, square, 180, 10, 180, 0.98, dark, end)
+t6 = (of, square, 225, 10, 220, 0.96, bright_1_4, end)
+t7 = (variable, square, 270, 10, 200, 0.97, mid, end)
+t8 = (names, square, 315, 10, 220, 0.96, bright, end)
+fibo([t1, t2, t3, t4, t5, t6, t7, t8], 42, 400, 600)
+
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file = "test9.eps")
+
+--------------------------------------------------------------
+
+sk = Turtle()
+sk.shape("turtle")
+sk.speed("fastest")
+
+sk2 = Turtle()
+sk2.shape("turtle")
+sk2.speed("fastest")
+
+jp = Turtle()
+jp.shape("turtle")
+jp.speed("fastest")
+
+ran = Turtle()
+ran.shape("turtle")
+ran.speed("fastest")
+
+start = (96,194,227)
+end = (227,94,136)
+
+t1 = (sk, square, 0, 10, 200, 0.97, start, end)
+t2 = (sk2, square, 90, 10, 240, 0.97, start, end) 
+t3 = (jp, square, 180, 10, 220, 0.96, start, end) 
+t4 = (ran, square, 270, 10, 230, 0.96, start, end)
+
+fibo([t1, t2, t3, t4], 69, 600, 600)
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file = "test10.eps")

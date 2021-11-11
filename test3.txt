@@ -1,0 +1,30 @@
+this are the settings used for the image submitted
+copy below and replace it in the final ver file to see
+
+sk = Turtle()
+sk.shape("turtle")
+sk.speed("fastest")
+
+sk2 = Turtle()
+sk2.shape("turtle")
+sk2.speed("fastest")
+
+jp = Turtle()
+jp.shape("turtle")
+jp.speed("fastest")
+
+ran = Turtle()
+ran.shape("turtle")
+ran.speed("fastest")
+
+start = (94,35,203) 
+end = (145,205,254)
+
+t1 = (sk, square, 0, 10, 200, 0.97, start, end)
+t2 = (sk2, square, 90, 10, 240, 0.97, start, end) 
+t3 = (jp, square, 180, 10, 220, 0.96, start, end) 
+t4 = (ran, square, 270, 10, 230, 0.96, start, end)
+
+fibo([t1, t2, t3, t4], 69, 600, 600)
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file = "/output images/test3.eps")
