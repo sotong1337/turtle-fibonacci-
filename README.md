@@ -4,7 +4,9 @@ output files are in eps format, open with GIMP to see results <br>
 Tell Jing Peng and Rayner I said hi :) <br>
 Please only refer to Fibo_Final_Ver.py <br>
 To see the individual fibonacci spirals, go to line 147 and delete items in the list e.g. fibo([t1], 42, 800, 800) <br>
-To create your own, delte everything after line 54 <br>
+To create your own, delete everything after line 54 <br>
+The settings used for submissions can be found in settings_for_submission.txt <br>
+And the settings for some other files can be found in other_palates_to_test.txt <br>
 
 *everything in {} means to use your own names <br>
 syntax works as such: <br>
